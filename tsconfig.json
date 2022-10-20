@@ -16,6 +16,14 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/bar": [
+        "libs/bar/src"
+      ],
+      "@app/bar/*": [
+        "libs/bar/src/*"
+      ]
+    }
   }
 }
